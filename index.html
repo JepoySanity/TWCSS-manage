@@ -9,29 +9,31 @@
   </head>
   <body>
     <!-- navigation -->
-    <nav class="relative container mx-auto">
-      <div class="flex items-center justify-between">
-        <div class="pt-2">
-          <img src="src/img/logo.png" width="60" alt="" />
+    <div class="bg-red-100">
+      <nav class="relative container mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="pt-2">
+            <img src="src/img/logo.png" width="60" alt="" />
+          </div>
+          <div class="hidden md:flex space-x-6">
+            <a href="#" class="hover:text-red-800">Pricing</a>
+            <a href="#" class="hover:text-red-800">Product</a>
+            <a href="#" class="hover:text-red-800">About Us</a>
+            <a href="#" class="hover:text-red-800">Careers</a>
+            <a href="#" class="hover:text-red-800">Community</a>
+          </div>
+          <a
+            href=""
+            class="hidden md:block p-3 px-6 pt-2 text-white bg-red-500 rounded-full baseline hover:bg-red-800"
+            >Get Started</a
+          >
         </div>
-        <div class="hidden md:flex space-x-6">
-          <a href="#" class="hover:text-red-800">Pricing</a>
-          <a href="#" class="hover:text-red-800">Product</a>
-          <a href="#" class="hover:text-red-800">About Us</a>
-          <a href="#" class="hover:text-red-800">Careers</a>
-          <a href="#" class="hover:text-red-800">Community</a>
-        </div>
-        <a
-          href=""
-          class="hidden md:block p-3 px-6 pt-2 text-white bg-red-500 rounded-full baseline hover:bg-red-800"
-          >Get Started</a
-        >
-      </div>
-    </nav>
+      </nav>
+    </div>
     <!-- hero section -->
     <section id="hero">
       <div
-        class="container flex flex-col-reverse md:flex-row mx-auto items-center space-y-0 md:space-y-0 justify-between"
+        class="container flex flex-col-reverse md:flex-row mx-auto items-start mt-4 space-y-0 md:space-y-0 justify-between"
       >
         <!-- left item -->
         <div class="flex flex-col space-y-12 md:w-1/2">
@@ -54,7 +56,7 @@
             >
           </div>
         </div>
-        <div class="md:w-1/">
+        <div class="">
           <img src="src/img/illustration-intro.svg" />
         </div>
       </div>
